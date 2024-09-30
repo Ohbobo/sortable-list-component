@@ -1,0 +1,112 @@
+:root {
+  --accent-color: #0D2167
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", system-ui;
+  font-style: normal;
+}
+
+body {
+  background-color: #EFF6FF;
+}
+
+h1, h2 {
+  color: var(--accent-color)
+}
+
+#app {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.tech-container {
+  background-color: white;
+  width: 800px;
+  border-radius: 20px;
+  padding: 50px;
+  display: flex;
+  gap: 30px;
+}
+
+.skills-list {
+  gap: 20px;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.suggested-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.suggested-btn {
+  border: none;
+  background: none;
+  text-align: start;
+  cursor: pointer;
+}
+
+.skills-list_select {
+  height: 60px;
+  border-radius: 5px;
+  background-color: #F7F7FA;
+  border: none;
+  padding: 20px;
+}
+
+.skills-list_div {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  background: var(--accent-color);
+}
+
+.suggested-list-container {
+  width: 30%;
+}
+
+.suggested-list {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.suggested-list_button {
+  width: 100%;
+  height: 30px;
+  border: none;
+  text-align: start;
+  border-radius: 5px;
+  padding-left: 5px;
+  cursor: pointer;
+  background-color: transparent;
+}
+.suggested-list_button:hover {
+  background-color: rgb(244, 244, 244);
+}
+
+.fa-xmark {
+  cursor: pointer;
+}
